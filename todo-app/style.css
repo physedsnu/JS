@@ -1,0 +1,67 @@
+body {
+  background-color: #1e2e4f; /* 군청색 */
+  color: white;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task-box {
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  background-color: #00bcd4; /* 하늘색 민트색 */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.task-box.completed {
+  background-color: #0097a7; /* 어두운 민트색 */
+  text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.task-box span {
+  font-size: 18px;
+  flex-grow: 1;
+}
+
+.icon-button {
+  margin-left: auto;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.icon-button span {
+  font-size: 18px;
+  color: white;
+}
+
+.add-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #ce6583;
+  border: 1px solid rgb(149, 206, 207);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
